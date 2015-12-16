@@ -1,0 +1,353 @@
+/* this is where all of your CSS styles go */
+
+@font-face{
+	font-family: carton;
+	src: url("../fonts/carton-slab-webfont.woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body{
+	margin: 0 auto;
+	height: auto;
+	overflow: auto;
+}
+
+.black{
+	background-image: url("../images/pattern_black.png");
+}
+
+.cyan{
+	background-image: url("../images/pattern_cyan.png");
+}
+
+
+
+.green{
+	background-image: url("../images/pattern_green.png");
+}
+
+.orange{
+	background-image: url("../images/pattern_orange.png");
+}
+
+.purple{
+	background-image: url("../images/pattern_purple.png");
+}
+
+.gold{
+	background-image: url("../images/pattern_gold.png");
+}
+
+.titlewhoa{
+	font-family: carton;
+	font-size:400%;
+	line-height: 1.2em;
+	padding: 3% 1% 3% 1%;
+}
+
+.subtitle{
+	font-family: carton;
+	color: #969696;
+	font-size: 1.6em;
+	line-height: 1.0em;
+	text-align: center;
+	
+}
+
+
+.captionbox{
+	width: 110%;
+	position: relative;
+	margin-left: -25%;
+	margin-top: -30%;
+	z-index: 11;
+}
+.caption{
+	background: #FFFFFF;
+	font-family: open sans;
+	font-size: 1.2em;
+	color: #000000;
+	padding: 2%;
+	width: 150%;	
+	position: absolute;
+	left: 2%;
+	top: -2%;
+	
+}
+
+.captionlayer1{
+	width: 120%;
+	height: 5vh;
+	left: 0%;
+	position: absolute;
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+}
+
+a:visited{
+	color: #969696;
+}
+
+
+/* ----------------------------------layers---------------------------------------- */
+#main{
+	height: 100vh;
+}
+
+
+
+#layer1{
+	width: 95%;
+	height: 80%;
+	position: relative;
+	margin-top: 5%;
+	margin-left: 2.5%;
+	margin-right: auto;
+	z-index: 1;
+	
+}
+
+#layer2{
+	width: 100%;
+	height: 25%;
+	position: relative;
+	top: -65%;
+	z-index: 2;
+}
+
+#layer3{
+	background: #FFFFFF;
+	position: relative;
+	width: 90%;
+	height: auto;
+	z-index: 3;
+	margin-left: 6%;
+	top: -95%;
+}
+
+
+/* ------- top navigation ---------*/
+
+#navigation{
+	width: 100%;
+	position: absolute;
+	top: 90%;
+	margin-left: auto;
+}
+
+
+
+
+/*------- explanation ------ */
+
+#explain{
+	background: #FFFFFF;
+	display: none;
+	z-index: 5;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+.explanation{
+	font-family: open sans;
+	padding: 2%;
+	font-size: 120%;
+	max-width: 950px;
+}
+
+.whitebg{
+	background: #FFFFFF;
+}
+
+#explainbg{
+	background-image: url("../images/pattern_black.png");
+	position: absolute;
+	margin-top: 2%;
+	margin-left: 10%;
+	width: 80%;
+	height: 92%;
+	z-index: 6;
+}
+
+#explaintitlebg{
+	width: 70%;
+	height: 20%;
+	z-index: 6;
+	position: absolute;
+	margin-top: 1%;
+	margin-left: 12%;
+}
+
+#explainheader{
+	width: 70%;
+	margin-left: 15%;
+	margin-top: -3%;
+	position: relative;
+	z-index: 7;
+}
+
+#explaintitle{
+	font-family: carton;
+	font-size: 4em;
+	padding: 1%;
+}
+
+#explain1bg{
+	width: 73%;
+	height: 12%;
+	position: absolute;
+	margin-top: -3%;
+	margin-left: 8%;
+	z-index: 7;
+}
+
+#explain1{
+	width: 75%;
+	position: relative;
+	margin-left: 9%;
+	margin-top: -2%;
+	z-index: 7;
+}
+
+#explain2bg{
+	width: 80%;
+	height: 13%;
+	position: absolute;
+	margin-left: 18%;
+	margin-top: 0%;
+	z-index: 7;
+}
+
+#explain2{
+	width: 75%;
+	position: relative;
+	margin-left: 20%;
+	margin-top: 2%;
+	z-index: 7;
+}
+
+#explain3bg{
+	width: 70%;
+	height: 12%;
+	position: absolute;
+	margin-top: -1%;
+	margin-left: 25%;
+	z-index: 7;
+}
+
+#explain3{
+	width: 75%;
+	position: relative;
+	margin-left: 11%;
+	margin-top: 2%;
+	z-index: 7;
+}
+
+#explain4bg{
+	width: 80%;
+	height: 10%;
+	position: absolute;
+	margin-top: 3%;
+	margin-left: 20%;
+	z-index: 7;
+}
+
+#explain4{
+	width: 75%;
+	position: relative;
+	margin-left: 16%;
+	margin-top: 1%;
+	z-index: 7;	
+}
+
+/* ------- windows navigation ------- */
+
+.colimage {
+	float:left;
+	margin: 0 0 1% 3%;
+	width: 30.33%;
+	height: 100%;
+}
+
+.colimage:first-child { 
+	margin-left: 0%;
+}
+
+.top{
+	width: 100%;
+	height: 15%;
+	margin:0;
+}
+
+.content {
+	width: 100%;
+	height: 70%;
+	background:none;
+}
+
+.base{
+	width: 100%;
+	height: 15%;
+	margin: 0;
+}
+
+.colbase {
+	float:left;
+	margin: 0% 0% 1% 3%;
+	width: 30.33%;
+	height: 100%;
+}
+
+.colbase:first-child { 
+	margin-left: 0%;
+}
+
+
+
+/*------ content --------*/
+.drawing{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.drawncontainer{
+	width: 90%;
+	margin-left: 2%;
+
+}
+
+/*--------maps ---------*/
+
+.map{
+	background: #FFFFFF;
+	background-image: url('../images/pattern_black.png');
+	position: absolute;
+	width: 20%;
+	height: 30%;
+	top: 60%;
+	left: 65%;
+	opacity: 0.95;
+	z-index: 10;
+	display: none;
+	
+}
+
+#toplink{
+	width: 90%;
+	margin-left: 5%;
+}
+
+
+
+/*-------offset -----------*/
+

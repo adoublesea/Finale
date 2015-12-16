@@ -1,0 +1,74 @@
+#allgames{
+	width: 90%;
+	height: 100vh;
+	margin: auto;
+}
+
+.mainlink{
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin-bottom: 1%;
+	height: 20%;
+}
+
+
+#titletitle{
+	font-family: carton;
+	font-size: 2.5em;
+	line-height: 1.0em;
+	margin-left: auto;
+}
+
+#title_title{
+	text-align: center;
+}
+
+#gamea_title:hover{
+	color: #00AEFF;
+}
+
+#gameb_title:hover{
+	color: #00D451;
+}
+
+#gamec_title:hover{
+	color: #ED6024;
+}
+
+#gamed_title:hover{
+  color: #CA66F2;
+}
+
+#gamee_title:hover{
+	color: #FFD117;
+}
+
+.white{
+	background: #FFFFFF;
+	
+}
+
+.titlegames{
+	font-family: carton;
+	font-size: 2.5em;
+	line-height: 1.5em;
+	margin: -8% 0% 3% 0%;
+	padding-left: 4%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	z-index: 2;
+	background: #FFFFFF;
+	position: relative;
+	
+}
+
+.dots{
+	width: 100%;
+	height: 80%;
+	position: relative;
+	left: -3%;
+	margin-top: 1.5%;
+	opacity: 0;
+	
+}
+
